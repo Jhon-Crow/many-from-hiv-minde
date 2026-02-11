@@ -1,120 +1,54 @@
-# Platforms for AI Agent Earnings
+# Platforms Quick Reference (Supplementary to platforms-research.md)
 
-## GitHub Bounty Platforms (Code Contributions)
+> This file provides additional platform details not covered in the main platforms-research.md. For the comprehensive platform research with 26 platforms, see [platforms-research.md](./platforms-research.md).
+
+## Additional Platforms Identified
 
 ### BountyBot
 - **URL**: https://bountybot.dev/
-- **Model**: Solve funded GitHub issues, submit PRs, get paid
+- **Model**: Find funded GitHub issues, submit PRs, get paid instantly
 - **Payouts**: Up to $500+ per issue
-- **Barrier to entry**: Low - just needs a GitHub account
-- **Payment**: Various methods
-- **AI suitability**: HIGH - hive-mind already solves GitHub issues
-
-### BountyHub
-- **URL**: https://www.bountyhub.dev/
-- **GitHub Marketplace**: https://github.com/marketplace/bountyhub-app
-- **Model**: Anyone can create/solve bounties on public GitHub issues
-- **Barrier to entry**: Low - free plan, just GitHub account
-- **Payment**: Through platform
-- **AI suitability**: HIGH - directly aligned with hive-mind's capabilities
+- **Barrier to entry**: Low -- just needs a GitHub account
+- **AI suitability**: HIGH -- hive-mind already solves GitHub issues
+- **Not in main research**: Yes, additional find
 
 ### BountyPay
 - **URL**: https://bountypay.luccilabs.xyz/
 - **Model**: Fund GitHub issues with crypto bounties, auto-pay on PR merge
-- **Payment**: USDC/MUSD cryptocurrency - automatic on merge
-- **Barrier to entry**: LOW - needs GitHub + crypto wallet
-- **AI suitability**: HIGH - crypto payments solve Russia payment issues
+- **Payment**: USDC/MUSD cryptocurrency -- **automatic payment on merge**
+- **Barrier to entry**: LOW -- needs GitHub + crypto wallet
+- **AI suitability**: HIGH
+- **RF Payment**: EXCELLENT -- crypto payments directly to wallet, no intermediaries
+- **Key advantage**: Fully automated crypto payout, ideal for Russian users
 
-### CodeBounty
+### CodeBounty.ai
 - **URL**: https://www.codebounty.ai/
-- **Model**: Contributors work on funded issues, paid when PR merged
-- **Payment**: Through platform
+- **Model**: Contributors work on funded issues with defined scope and criteria
+- **Payment**: Escrow-based platform
 - **Barrier to entry**: Low
-- **AI suitability**: HIGH
+- **AI suitability**: HIGH -- positions itself for "Vibecoders" (no explicit AI ban)
 
-### Opire
-- **URL**: https://opire.dev/
-- **Model**: Bounty platform for software developers
-- **Fees**: 4% Opire fee + Stripe fees (paid by bounty creator)
-- **Developer receives**: 100% of bounty
-- **Barrier to entry**: Low
-- **AI suitability**: HIGH
+## AI Agent Crypto Ecosystem Platforms
 
-### Gitpay
-- **URL**: https://gitpay.me/
-- **Model**: Open source bounties for git issues
-- **Barrier to entry**: Low
-- **AI suitability**: HIGH
+These represent a future opportunity for hive-mind to participate in AI-native token economies:
 
-### boss.dev
-- **URL**: https://www.boss.dev/
-- **Model**: GitHub-integrated bounties in 33 currencies
-- **Barrier to entry**: Low - uses existing GitHub workflow
-- **AI suitability**: HIGH
+### Fetch.ai / Artificial Superintelligence Alliance (FET)
+- **Model**: Deploy Autonomous Economic Agents that perform tasks across industries
+- **Market cap**: Part of the $24-27B AI token market
+- **AI suitability**: MEDIUM -- requires re-architecturing to Fetch.ai agent framework
+- **SDK**: [uAgents](https://github.com/fetchai/uAgents)
 
-### IssueHunt
-- **URL**: https://oss.issuehunt.io/
-- **Model**: Bounty platform for open source projects
-- **Barrier to entry**: Low
-- **AI suitability**: HIGH
+### Virtuals Protocol (VIRTUAL)
+- **Model**: Build, own, monetize autonomous agents on Solana/Base blockchain
+- **Notable**: GAME framework and Agent Commerce Protocol
+- **AI suitability**: MEDIUM -- different architecture than hive-mind
+- **Barrier**: Would need to wrap hive-mind as a tokenized agent
 
-## Crypto Microtask Platforms
+### SingularityNET (AGIX)
+- **Model**: Open marketplace where AI services interact, trade, and pay each other in AGIX
+- **AI suitability**: MEDIUM -- could expose hive-mind's issue-solving as a marketable service
+- **SDK**: [SingularityNET SDK](https://github.com/singnet)
 
-### JumpTask
-- **URL**: https://jumptask.io/
-- **Model**: Earn crypto by completing microtasks
-- **Payment**: JMPT tokens (convertible)
-- **Barrier to entry**: Very low
-- **AI suitability**: MEDIUM - tasks may require human verification
-
-### Click For Crypto
-- **Model**: Earn 0.01-10+ USDT per task
-- **Payment**: USDT instant payments
-- **Barrier to entry**: Low
-- **AI suitability**: LOW-MEDIUM - many tasks require human interaction
-
-## AI Agent Crypto Platforms
-
-### Fetch.ai / Artificial Superintelligence Alliance
-- **Token**: FET
-- **Model**: Deploy Autonomous Economic Agents that perform tasks
-- **AI suitability**: MEDIUM - requires specific agent framework integration
-
-### Virtuals Protocol
-- **Token**: VIRTUAL
-- **Model**: Build, own, monetize autonomous agents on blockchain
-- **AI suitability**: MEDIUM - different architecture than hive-mind
-
-### SingularityNET
-- **Token**: AGIX
-- **Model**: Marketplace where AI services interact and trade
-- **AI suitability**: MEDIUM - could expose hive-mind capabilities as services
-
-## Bug Bounty Platforms (Security)
-
-### Immunefi
-- **URL**: https://immunefi.com/
-- **Model**: DeFi/Web3 bug bounties, $100M+ distributed
-- **Payment**: Cryptocurrency
-- **Barrier to entry**: Medium - requires security expertise
-- **AI suitability**: MEDIUM - specialized security knowledge needed
-
-### HackenProof
-- **URL**: https://hackenproof.com/
-- **Model**: Web3 bug bounty platform
-- **Payment**: Cryptocurrency
-- **Barrier to entry**: Medium
-- **AI suitability**: MEDIUM
-
-## Freelance Platforms
-
-### Upwork
-- **URL**: https://www.upwork.com/
-- **Barrier to entry**: HIGH - requires profile building, reputation
-- **Payment**: Does not support Russia
-- **AI suitability**: LOW for autonomous work (requires identity, interviews)
-
-### Fiverr
-- **Barrier to entry**: HIGH - requires profile, reputation building
-- **Payment**: Does not support Russia
-- **AI suitability**: LOW for autonomous work
+### Autonolas / Olas (OLAS)
+- **Model**: AI agent protocol for creating autonomous on-chain/off-chain agents
+- **AI suitability**: MEDIUM -- protocol-level integration needed

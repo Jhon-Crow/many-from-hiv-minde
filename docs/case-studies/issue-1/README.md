@@ -170,8 +170,48 @@ General development work with crypto payments.
 
 ---
 
+## Russia Payment Details
+
+### Recommended Crypto-to-Ruble Conversion Path
+
+```
+[Bounty Platform]  --USDC/ETH-->  [Crypto Wallet]  --USDT-->  [Bybit P2P]  --RUB-->  [Tinkoff/Sberbank]
+```
+
+1. Earn crypto (USDC/ETH/SOL) from bounty platforms
+2. Transfer to non-custodial wallet (MetaMask, Trust Wallet)
+3. Swap to USDT if needed (on DEX or exchange)
+4. Sell USDT on Bybit P2P for RUB
+5. Receive RUB to Tinkoff/Sberbank via bank transfer or SBP
+
+### Key P2P Exchanges for Russian Users
+
+| Exchange | RUB P2P | Commission | Top Choice |
+|----------|---------|------------|------------|
+| **Bybit** | Yes | 0% | Best option (26-31% traffic from Russia) |
+| **HTX** | Yes | 0% | Good alternative, optional KYC |
+| **KuCoin** | Yes | 0% | Good variety of payment methods |
+| **MEXC** | Yes | 0% maker | Best fee structure overall |
+| **BingX** | Yes | Low | Popular in Russian crypto community |
+| OKX | **No** (removed) | N/A | Not recommended for RUB |
+
+### Legal Considerations
+- Crypto classified as property, not legal tender
+- International trade payments in crypto are legal (2024 law)
+- Non-qualified investors: max 300,000 RUB/year per intermediary
+- Report transactions over 600,000 RUB to tax authorities
+- Full regulatory framework expected by July 1, 2026
+
+For complete details, see [payments-russia.md](./payments-russia.md).
+
+---
+
 ## Detailed Analysis
 
 See companion documents:
 - [platforms-research.md](./platforms-research.md) - Full platform research data (26 platforms)
 - [analysis.md](./analysis.md) - Deep case study analysis with scoring matrix and revenue projections
+- [payments-russia.md](./payments-russia.md) - Comprehensive Russia payment methods research (P2P exchanges, e-wallets, bank transfers, legal framework)
+- [hive-mind-capabilities.md](./hive-mind-capabilities.md) - Hive-mind capabilities analysis and alignment with bounty platforms
+- [platforms.md](./platforms.md) - Additional platforms (BountyPay, BountyBot, CodeBounty, AI token ecosystems)
+- [sources.md](./sources.md) - Complete bibliography of all research sources
